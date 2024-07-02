@@ -1,6 +1,6 @@
 # 配置 GeoServer
 
-## 一、添加GridSets
+## 一、添加GridSets(网格集)
 ![](./images/geoserver/0-1.webp)
 
 ![](./images/geoserver/0-2.webp)
@@ -28,5 +28,7 @@
 
 ## 十、技术支持
 - [GeoServer](https://geoserver.org/)
-- 在公众号里了解细节
+
+- 加微信了解更多细节
+
 ![关注公众号](./images/official_qrcode.webp)
