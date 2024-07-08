@@ -14,3 +14,5 @@
 ## 行业
 - [地理信息-GeoServer配置](./articles/geoserver.md)
 
+## AI
+- [部署 Stable Diffusion](./articles/stable-diffusion-deploy.md)
