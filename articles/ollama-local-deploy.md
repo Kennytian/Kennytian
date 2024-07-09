@@ -16,6 +16,38 @@
 
 这样就能用 Web 来切换使用 Ollama 了
 
+## 五、如何调用API
+> 常用接口调用方式
+```shell
+curl http://localhost:11434/api/generate -d '{
+  "model": "qwen2",
+  "prompt": "你好",
+  "stream": true
+}'
+
+
+curl http://localhost:11434/api/chat -d '{
+  "model": "qwen2",
+  "messages": [
+    {
+      "role": "user",
+      "content": "你好"
+    }
+  ]
+}'
+```
+> 列出模型
+
+`curl http://localhost:11434/api/tags`
+
+> 显示模型信息
+```shell
+curl http://localhost:11434/api/show -d '{
+  "name": "qwen2"
+}'
+```
+
+更多 API 接口请参考 https://github.com/ollama/ollama/blob/main/docs/api.md
 
 ## 十、技术支持
 - 加微信了解更多细节
