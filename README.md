@@ -16,3 +16,4 @@
 
 ## AI
 - [部署 Stable Diffusion](./articles/stable-diffusion-deploy.md)
+- [本地部署语言模型之Ollama](./articles/ollama-local-deploy.md)
