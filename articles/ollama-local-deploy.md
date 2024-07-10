@@ -3,6 +3,12 @@
 ## 一、下载 Ollama
 根据不同平台选择性下载 https://ollama.com/download
 
+或者使用 Docker
+
+```shell
+docker run -d -v ~/Downloads/ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+```
+
 ## 二、下载 LLM 模型
 - `ollama run qwen2`
 
