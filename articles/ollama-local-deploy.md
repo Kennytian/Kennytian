@@ -18,9 +18,18 @@ docker run -d -v ~/Downloads/ollama:/root/.ollama -p 11434:11434 --name ollama o
 - `ollama serve`
 
 ## 四、运行 Web UI 网站调用
-- `docker run -p 3211:3000 -d --name chatbot-ollama ghcr.io/ivanfioravanti/chatbot-ollama:main`
+- `docker run -p 3211:3000 -d --restart=always --name chatbot-ollama ghcr.io/ivanfioravanti/chatbot-ollama:main`
 
 这样就能用 Web 来切换使用 Ollama 了
+
+> 注意： 如果没有设置为自动启动，可以通过如下命令为设置为自动启动：
+```shell
+docker update --restart=always chatbot-ollama
+```
+查看`chatbot-ollama`是否为自动启动：
+```shell
+docker inspect chatbot-ollama --format='{{.HostConfig.RestartPolicy.Name}}'
+```
 
 ## 五、如何调用API
 > 常用接口调用方式
@@ -52,6 +61,14 @@ curl http://localhost:11434/api/show -d '{
   "name": "qwen2"
 }'
 ```
+
+## 六、修改模型下载地址
+
+```shell
+launchctl setenv OLLAMA_MODELS "~/Downloads/ollama"
+```
+
+
 
 更多 API 接口请参考 https://github.com/ollama/ollama/blob/main/docs/api.md
 
