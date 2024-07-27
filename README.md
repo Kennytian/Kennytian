@@ -13,6 +13,7 @@
 
 ## 后端
 - [Bunx 命令的 --bun 有什么作用](./articles/bunx--bun.md)
+- [N8N - 自动化工作流入门](./articles/n8n-beginner.md)
 
 ## 行业
 - [地理信息-GeoServer配置](./articles/geoserver.md)
