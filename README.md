@@ -4,7 +4,6 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kennytian&theme=Gradient&count_private=true&show_icons=true&layout=compact)
 
-
 ## UI
 - [常用图标对比表格](./articles/choose-icons.md)
 
@@ -13,13 +12,14 @@
 
 ## 后端
 - [Bunx 命令的 --bun 有什么作用](./articles/bunx--bun.md)
-- [N8N - 自动化工作流入门](./articles/n8n-beginner.md)
+- [Node 命令行常见参数](./articles/node-parameters.md)
 
 ## 行业
 - [地理信息-GeoServer配置](./articles/geoserver.md)
 
 ## 自动化
 - [RPA - 入门](./articles/rpa-beginner.md)
+- [N8N - 自动化工作流入门](./articles/n8n-beginner.md)
 
 ## AI
 - [部署 Stable Diffusion](./articles/stable-diffusion-deploy.md)
