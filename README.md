@@ -26,3 +26,4 @@
 - [本地部署语言模型之Ollama](./articles/ollama-local-deploy.md)
 - [算力资源](./articles/compute-resources.md)
 - [高级 prompt 技巧](./articles/advanced-prompt-tips.md)
+- [本地大模型启动 OpenAI 服务的N 种方式](./articles/run-openai-n-ways.md)
