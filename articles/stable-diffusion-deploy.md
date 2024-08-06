@@ -29,7 +29,6 @@ Traceback (most recent call last):
 1. 默认只带了一个`v1-5-pruned-emaonly.safetensors`, 如果需要其他模型，可以到 https://civitai.com (C站) 和 https://huggingface.co/ (抱脸)下载。
 2. 在`models`下放下模型，在`extensions`下放下插件。
 
-
 ## 十、技术支持
 - 加微信了解更多细节
 

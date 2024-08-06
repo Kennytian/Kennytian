@@ -11,3 +11,8 @@
 | React Icons | https://react-icons.github.io/react-icons   | 包含上面所有icon，含中国品牌    | 11.3k         | 2,112,299 | 85 MB   | React                                                            | `npm i react-icons` | `<FaBeer />`                                           |
 
 所以为了一步到位，直接使用 `React Icons`
+
+## 十、技术支持
+- 加微信了解更多细节
+
+![关注公众号](./images/official_qrcode.webp)

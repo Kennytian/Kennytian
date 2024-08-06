@@ -14,6 +14,9 @@
 - [Bunx 命令的 --bun 有什么作用](./articles/bunx--bun.md)
 - [Node 命令行常见参数](./articles/node-parameters.md)
 
+## 运维
+- [一键备份并更新 Dify](./articles/one-key-upgrade-dify.md)
+
 ## 行业
 - [地理信息-GeoServer配置](./articles/geoserver.md)
 

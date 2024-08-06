@@ -18,3 +18,8 @@ RPA（Robotic Process Automation）是自动化流程的简称，是一种通过
 ## 业内产品
 - UiPath
 - 八爪鱼
+
+## 十、技术支持
+- 加微信了解更多细节
+
+![关注公众号](./images/official_qrcode.webp)

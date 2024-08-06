@@ -21,3 +21,8 @@
 
 ## 五、 Ollama
 - `ollama run qwen2`
+
+## 十、技术支持
+- 加微信了解更多细节
+
+![关注公众号](./images/official_qrcode.webp)

@@ -19,3 +19,8 @@
   - RTX 4090 2.6/hour 59.28/day 1,591/month
 - Featurize
 - AnyGPU
+
+## 十、技术支持
+- 加微信了解更多细节
+
+![关注公众号](./images/official_qrcode.webp)
