@@ -23,6 +23,7 @@
 ## 自动化
 - [RPA - 入门](./articles/rpa-beginner.md)
 - [N8N - 自动化工作流入门](./articles/n8n-beginner.md)
+- [ZennoPoster - 入门](./articles/zenno-poster-beginner.md)
 
 ## AI
 - [部署 Stable Diffusion](./articles/stable-diffusion-deploy.md)
