@@ -17,6 +17,8 @@ RPA（Robotic Process Automation）是自动化流程的简称，是一种通过
 
 ## 业内产品
 - UiPath
+- Automation Anywhere
+- Selenium WebDriver
 - ZennoLab（ZennoPoster, ZennoDroid）
 - 八爪鱼
 
