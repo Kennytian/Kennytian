@@ -9,7 +9,9 @@
 ### 二、安装指定版本：
 `curl -fsSL https://gitee.com/akirarika/bun-cn/raw/main/install.sh | bash -s 1.2.0`
 
-### 三、检查生效：在`.bash_profile` 或 `.bashrc` 里添加如下
+### 三、检查生效
+
+在`.bash_profile` 或 `.bashrc` 里添加如下
 
 ```bash
 # bun
