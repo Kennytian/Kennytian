@@ -21,7 +21,7 @@ export PATH=$BUN_INSTALL/bin:$PATH
 
 然后执行 `source ~/.bash_profile` 或 `source ~/.bashrc`
 
-***如果还不生效，就 `vi /etc/profile`，添加上面的 export，然后 `source /etc/profile`***
+***如果还不生效，就 `vi /etc/profile`，添加上面的 export 两行，然后 `source /etc/profile`***
 
 ### 四、加速镜像
 在 ~ 目录下添加国内源，创建 `bunfig.toml` 文件，添加如下：
