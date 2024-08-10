@@ -4,10 +4,10 @@
 ### 一、国内安装源：
 `curl -fsSL https://gitee.com/akirarika/bun-cn/raw/main/install.sh | bash`
 
-### 二、国内更新源：
-`curl -fsSL https://gitee.com/akirarika/bun-cn/raw/main/install.sh | bash -s 1.2.0`
+更新版本也是执行上面这行命令，程序会自动安装最新版
 
-1.2.0 是指定的未来版本号
+### 二、安装指定版本：
+`curl -fsSL https://gitee.com/akirarika/bun-cn/raw/main/install.sh | bash -s 1.2.0`
 
 ### 三、检查生效：在`.bash_profile` 或 `.bashrc` 里添加如下
 
