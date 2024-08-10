@@ -13,6 +13,7 @@
 ## 后端
 - [Bunx 命令的 --bun 有什么作用](./articles/bunx--bun.md)
 - [Node 命令行常见参数](./articles/node-parameters.md)
+- [如何使用国内源安装配置 Bun](./articles/install-bun-cn.md)
 
 ## 运维
 - [一键备份并更新 Dify](./articles/one-key-upgrade-dify.md)
