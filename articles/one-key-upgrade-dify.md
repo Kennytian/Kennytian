@@ -16,7 +16,7 @@ git pull origin main
 
 sudo docker compose pull
 
-cp docker-compose.yaml docker-compose.yaml-$(date +%Y-%m-%d).bak
+cp -f docker-compose.yaml docker-compose.yaml-$(date +%Y-%m-%d).bak
 
 sudo docker compose down
 
@@ -24,7 +24,7 @@ sudo tar -cvf volumes-$(date +%Y-%m-%d).tgz volumes
 
 sudo docker compose up -d
 
-mv docker-compose.yaml-* volumes-* ../../dify-ops
+mv -f docker-compose.yaml-* volumes-* ../../dify-ops
 ```
 
 ## 三、执行脚本
