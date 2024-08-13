@@ -26,7 +26,7 @@ Flowise 支持多种 LLM，例如 OpenAI、Google PaLM、Ollama 等，下面的�
 ## 五、配置
 - Ollama 的地址：http://localhost:11434
 - 模型名不能随便填，需要用 Ollama 命令行工具查看可用模型：`ollama list`
-- Prompt 模板里的 `{subject}` 需要在 Format Prompt Values 里再配置一下:
+- Prompt 模板里的 `{subject}` 需要在 `Format Prompt Values` 里再配置一下:
 ```
 {
   subject:{{question}}
@@ -34,6 +34,14 @@ Flowise 支持多种 LLM，例如 OpenAI、Google PaLM、Ollama 等，下面的�
 ```
 - 配置完成后，点击右上角 Save，最好是导出一份 JSON 文件，方便以后导入。
 - 点击右上方聊天按钮，就能像下图一样聊天了。
+
+> 注意：如果我们在改 prompt 时，把 {subject} 改为了 {title}，那在 `Format Prompt Values` 里也一定要改为 
+```
+{
+   title:{{question}}
+}
+```
+> ，也就是要对应上。
 
 ## 六、效果图
 ![](./images/flowise.webp)
