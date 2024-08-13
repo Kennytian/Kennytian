@@ -19,7 +19,9 @@ Flowise 支持多种 LLM，例如 OpenAI、Google PaLM、Ollama 等，下面的�
 
 `docker run -d --name flowise --net=host flowiseai/flowise:latest`
 
-> 注意：由于 Docker 默认的网络是 bridge，所以需要使用 host 网络模式，才能访问到主机的Ollama。
+在浏览器中访问 http://localhost:3000
+
+> 注意：由于 Docker 默认的网络是 bridge，所以需要使用 host 网络模式才能访问到主机的  http://localhost:11434 上的 Ollama API 服务。
 
 ### 五、效果图
 ![](./images/flowise.webp)
