@@ -74,6 +74,9 @@ Flowise 支持多种 LLM，例如 OpenAI、Google PaLM、Ollama 等，下面的�
 }
 ```
 
+## 八、组件全家桶
+![](./images/flowise/flowise-components.webp)
+
 ## 十、技术支持
 - 加微信了解更多细节
 
