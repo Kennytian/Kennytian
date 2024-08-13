@@ -32,3 +32,4 @@
 - [算力资源](./articles/compute-resources.md)
 - [高级 prompt 技巧](./articles/advanced-prompt-tips.md)
 - [本地大模型启动 OpenAI 服务的N 种方式](./articles/run-openai-n-ways.md)
+- [本地部署 Flowise Agent](./articles/flowise-agent-local-deploy.md]
