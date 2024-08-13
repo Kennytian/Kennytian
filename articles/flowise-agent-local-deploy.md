@@ -46,6 +46,8 @@ Flowise 支持多种 LLM，例如 OpenAI、Google PaLM、Ollama 等，下面的�
 ## 六、效果图
 ![](./images/flowise.webp)
 
+![](./images/flowise-2.webp)
+
 ## 七、API 调用
 - 点击右上角代码按钮，可以看到支持非常多的调用方式，包括Embed(集成到网页里)、Python、JavaScript、Curl 等。
 - 这里以 curl 为例，调用代码如下：
