@@ -15,7 +15,6 @@
 - [Node 命令行常见参数](./articles/node-parameters.md)
 - [如何使用国内源安装配置 Bun](./articles/install-bun-cn.md)
 - [在线编辑 Swagger](./articles/swagger-editor.md)
-- [安装 Xinference 的注意点](./articles/install-xinference.md)
 
 ## 运维
 - [一键备份并更新 Dify](./articles/one-key-upgrade-dify.md)
@@ -30,9 +29,10 @@
 - [ZennoPoster - 入门](./articles/zenno-poster-beginner.md)
 
 ## AI
-- [部署 Stable Diffusion](./articles/stable-diffusion-deploy.md)
+- [Xinference 安装与使用](./articles/install-xinference.md)
+- [本地部署 Flowise Agent](./articles/flowise-agent-local-deploy.md)
+- [本地大模型启动 OpenAI 服务的N 种方式](./articles/run-openai-n-ways.md)
 - [本地部署语言模型之Ollama](./articles/ollama-local-deploy.md)
+- [部署 Stable Diffusion](./articles/stable-diffusion-deploy.md)
 - [算力资源](./articles/compute-resources.md)
 - [高级 prompt 技巧](./articles/advanced-prompt-tips.md)
-- [本地大模型启动 OpenAI 服务的N 种方式](./articles/run-openai-n-ways.md)
-- [本地部署 Flowise Agent](./articles/flowise-agent-local-deploy.md)
