@@ -51,6 +51,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    container_name: dod-app
     environment:
       REDIS_ADDR: redis:6379
       REDIS_PASSWORD: your_redis_password
@@ -73,6 +74,17 @@ volumes:
 
 ![](./images/dingtalk/6.png)
 
+## 五、复用上一个 build 过的 image (可选)
+1. `touch run.sh`
+```bash
+docker compose up -d
+docker cp .env dod-app:/app
+docker restart dod-app
+docker ps -a
+cat .env
+# 对比宿主机的 .env 与 dod-app 容器中的 .env
+docker exec -it dod-app cat .env
+```
 
 ## 十、技术支持
 - 加微信了解更多细节
