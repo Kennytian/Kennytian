@@ -86,6 +86,8 @@ cat .env
 docker exec -it dod-app cat .env
 ```
 
+2. `bash run.sh`
+
 ## 十、技术支持
 - 加微信了解更多细节
 

@@ -8,7 +8,7 @@
 - [常用图标对比表格](./articles/choose-icons.md)
 
 ## 前端
-- [没想到开发一款钉钉机器人这么简单](./articles/dingding-robot.md)]
+- [没想到开发一款钉钉机器人这么简单](./articles/dingding-robot.md)
 - [如何用 rollup 压缩混淆，保护你的代码](./articles/rollup-terser.md)
 
 ## 后端
