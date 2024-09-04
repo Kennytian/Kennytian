@@ -1,11 +1,11 @@
 # 使用 Github Actions 发布 Bun.js 项目至 Docker Hub
 
-## configuration
+## Configuration
 你需要在 Github Settings 里的配置 secrets
 
 ![](./images/actions-secrets-and-variables.webp)
 
-## code
+## Action Script
 在项目根目录下创建`.github/workflows/docker-image.yml`，添加如下代码
 
 ```yaml
@@ -51,5 +51,5 @@ jobs:
             "${{ secrets.DOCKERHUB_USERNAME }}/dingtalk-bot:${{ steps.package-version.outputs.current-version }}"
 ```
 
-## 注意
+## Attention
 > 必须先 checkout 代码，npm-get-version-action 才能读到 package.json
