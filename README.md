@@ -18,6 +18,7 @@
 - [在线编辑 Swagger](./articles/swagger-editor.md)
 
 ## 运维
+- [使用 Github Actions 发布 Bun.js 项目至 Docker Hub](./articles/deploy-bunjs-to-dockerhub-via-gh-actions.md)
 - [一键备份并更新 Dify](./articles/one-key-upgrade-dify.md)
 - [cpolar 内网穿透工具](./articles/cpolar.md)
 
@@ -28,6 +29,14 @@
 - [RPA - 入门](./articles/rpa-beginner.md)
 - [N8N - 自动化工作流入门](./articles/n8n-beginner.md)
 - [ZennoPoster - 入门](./articles/zenno-poster-beginner.md)
+
+## 设计模式
+### 创建型
+
+### 结构型
+
+### 行为型
+- [设计模式 - 策略模式](./articles/design-pattern/strategy.md)
 
 ## AI
 - [Xinference 安装与使用](./articles/install-xinference.md)
